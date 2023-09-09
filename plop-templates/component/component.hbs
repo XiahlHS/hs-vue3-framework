@@ -1,0 +1,9 @@
+<script setup lang="ts">
+import { getPrefixCls } from "hs-vue3";
+
+const prefixCls = getPrefixCls('{{ name }}')
+</script>
+
+<template>
+  <div :class="`${prefixCls}`">{{ upperFirstName }}</div>
+</template>

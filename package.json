@@ -1,0 +1,33 @@
+{
+  "name": "hs-vue3-framework",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "xiahl0916@163.com by HanSummer",
+  "description": "基于vue3, vue-router@4等开发的综合应用",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite -m dev",
+    "dev:test": "vite -m dev:test",
+    "build": "vite build -m build:prod",
+    "plop": "plop"
+  },
+  "dependencies": {
+    "hs-vue3": "^2.2.4",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "node-plop": "^0.31.1",
+    "plop": "^3.1.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "semver": "^7.5.0",
+    "unplugin-auto-import": "^0.15.0",
+    "vite": "^4.0.3",
+    "vite-plugin-libcss": "^1.0.6",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}
