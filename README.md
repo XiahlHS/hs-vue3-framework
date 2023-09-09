@@ -83,10 +83,10 @@ TODO
   npm start
   ```
 
- - 运行
-    ```bash
-    npm run build
-    ```
+- 打包发布
+  ```bash
+  npm run build
+  ```
 
 ## 如何贡献
 
