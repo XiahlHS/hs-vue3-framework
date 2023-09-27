@@ -1,5 +1,5 @@
 import hs from "hs-vue3";
-import { Login, Analysis, Workplace, Pdf, Ofd } from "@/views";
+import { Login, Analysis, Workplace, Pdf, AgGrid } from "@/views";
 
 const Layout = hs.Layout
 
@@ -75,7 +75,28 @@ export const asyncRouterMap = [
         meta: {
           title: "t.router.document.pdf",
           noCache: true,
-          affix: true,
+        },
+      },
+    ],
+  },
+  {
+    path: "/table",
+    component: Layout,
+    redirect: "/table/ag-grid",
+    name: "AgGrid",
+    meta: {
+      title: "t.router.table.title",
+      icon: "clarity:table-line",
+      alwaysShow: true,
+    },
+    children: [
+      {
+        path: "ag-grid",
+        component: AgGrid,
+        name: "AgGrid",
+        meta: {
+          title: "t.router.table.agGrid",
+          noCache: true,
         },
       },
     ],

@@ -11,6 +11,10 @@ export default {
         title: "文档预览",
         pdf: "Pdf",
         ofd: "Ofd"
+      },
+      table: {
+        title: "表格组件",
+        agGrid: "AgGrid"
       }
     },
   },
@@ -26,6 +30,10 @@ export default {
         title: "Document",
         pdf: "Pdf",
         ofd: "Ofd"
+      },
+      table: {
+        title: "Table Component",
+        agGrid: "AgGrid"
       }
     },
   },
