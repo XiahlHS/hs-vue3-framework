@@ -83,7 +83,7 @@ export const asyncRouterMap = [
     path: "/table",
     component: Layout,
     redirect: "/table/ag-grid",
-    name: "AgGrid",
+    name: "Table",
     meta: {
       title: "t.router.table.title",
       icon: "clarity:table-line",

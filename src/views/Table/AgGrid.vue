@@ -2,7 +2,7 @@
 import { computed, defineComponent, unref } from 'vue'
 
 export default defineComponent({
-    name: 'AgGrid',
+    name: 'AgGridDemo',
     setup() {
         const rowData: any = reactive({});
 
@@ -19,7 +19,6 @@ export default defineComponent({
                     'text-align': 'left',
                 },
                 suppressSizeToFit: true,
-                suppressSorting: true,
                 suppressMenu: true,
                 headerCheckboxSelection: true,
                 checkboxSelection: true,
