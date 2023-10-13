@@ -36,6 +36,14 @@ HS Vue3 Framework，是基于HS Vue3系列中最成熟和完善的中后台框�
 
 ## 项目地址：
 
+- [🎉 Gitee地址](https://gitee.com/hs-xhl/hs-vue3-framework)
+
+- [🎉 GitHub地址](https://github.com/XiahlHS/hs-vue3-framework)
+
+- [🎉 GitLab地址](https://gitlab.com/HanSummer/hs-vue3-framework)
+
+## 文档演示地址：
+
 - [🎉 文档地址]()  TODO
 
 - [🎉 演示地址（Vue3.x + Typescript + Vite + ElementPlus)](http://sangongli.top:8082)
