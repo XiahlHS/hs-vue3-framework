@@ -11,6 +11,6 @@ export default {
     headers: "multipart/form-data",
   },
   cdn: {
-    url: `http://127.0.0.1/pdfjs/${PDFVersion}`
+    url: `http://xiahl.top/pdfjs/${PDFVersion}`
   }
 };
