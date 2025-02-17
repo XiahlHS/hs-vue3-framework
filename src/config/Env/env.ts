@@ -11,6 +11,6 @@ export default {
     headers: "multipart/form-data",
   },
   cdn: {
-    url: `http://sangongli.top:8082/pdfjs/${PDFVersion}`
+    url: `http://127.0.0.1/pdfjs/${PDFVersion}`
   }
 };
